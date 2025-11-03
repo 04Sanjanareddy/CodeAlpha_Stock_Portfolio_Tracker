@@ -1,13 +1,13 @@
 # CodeAlpha_Stock_Portfolio_Tracker
 Stock Portfolio Tracker is a simple Python command-line app that helps users manage their stock investments. It lets you add, remove, and view stocks while automatically fetching live prices from Yahoo Finance using the yfinance library. The program calculates total investment, current portfolio value, and profit/loss in real time—making it an easy, practical tool to track your stock performance.
 
-⚙️ #Technologies Used
+# ⚙️ Technologies Used
     * Python 3 – Core programming language
     * yfinance – To fetch real-time stock prices from Yahoo Finance.
     * Object-Oriented Programming (OOP) – For clean and modular code design.
     * Dictionaries & Loops – For storing and processing portfolio data.
     * Exception Handling – For safe API calls and error management.
-🌟 # Key Features
+# 🌟  Key Features
 
    * Add and remove stocks interactively
    * Weighted-average calculation for repeated stock additions.
