@@ -17,4 +17,6 @@ Stock Portfolio Tracker is a simple Python command-line app that helps users man
    * Neat tabular display of portfolio summary with totals.
    * Error handling for invalid inputs or missing data.
    * Simple, lightweight, and beginner-friendly CLI interface.
-  
+
+# ⚙️ Technologies Used
+   * Python 3 - Core Programming language.
