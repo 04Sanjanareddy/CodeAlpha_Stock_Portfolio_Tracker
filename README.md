@@ -1,18 +1,28 @@
-# CodeAlpha_Stock_Portfolio_Tracker
-Stock Portfolio Tracker is a simple Python command-line app that helps users manage their stock investments. It lets you add, remove, and view stocks while automatically fetching live prices from Yahoo Finance using the yfinance library. The program calculates total investment, current portfolio value, and profit/loss in real time—making it an easy, practical tool to track your stock performance.
+# 📈 Stock Portfolio Tracker (Python)
+The Stock Portfolio Tracker is a simple Python command-line program that allows users to manage their stock investments.
+Users can input stock names and quantities, and the program calculates the total investment value using a hardcoded dictionary of stock prices.
+It demonstrates how basic Python concepts—such as dictionaries, input/output, basic arithmetic, and optional file handling—can be combined to build a practical, real-world project.
 
-# 🌟  Key Features
-   * Add and remove stocks interactively
-   * Weighted-average calculation for repeated stock additions.
-   * Fetch live stock prices and display real-time profit/loss.
-   * Automatically converts stock symbols to uppercase for consistency.
-   * Neat tabular display of portfolio summary with totals.
-   * Error handling for invalid inputs or missing data.
-   * Simple, lightweight, and beginner-friendly CLI interface.
+# ⚙️ Key Concepts Used
+   * Dictionary → to store stock prices ({"AAPL": 180, "TSLA": 250})
+   * Input/Output → to take user input and display results in the console
+   * Basic Arithmetic → to calculate total investment value
+   * File Handling (optional) → to save the result into a .txt or .csv file
 
-# ⚙️ Technologies Used
-   * Python 3 - Core Programming language.
-   * yfinance - To fetch real-time stock prices from Yahoo Finance.
-   * Object Oriented Programming (OOP) - For clean and modular code design.
-   * Dictionaries & Loops - For sorting and processing portfolio data.
-   * Exception Handling - For safe API calls and error management.
+# 🌟 Features
+   * Add multiple stocks and specify quantities.
+   * Uses predefined stock prices stored in a dictionary.
+   * Calculates and displays the total portfolio investment value.
+   * Optionally saves results to a text or CSV file.
+   * Simple and beginner-friendly command-line interface
+# 🧠 Technologies & Tools Used
+   * Programming Language: Python 3
+   * Libraries: Built-in Python modules only (os, csv, etc. — no external dependencies)
+   * Development Tools: IDLE / VS Code / PyCharm
+   * Environment: Command Line Interface (CLI)
+
+# 🚀 Learning Objectives
+   * Understand how to use dictionaries for key-value data mapping.
+   * Learn to perform user input handling and data validation.
+   * Practice basic arithmetic operations for financial calculations.
+   * Explore file handling for saving or reading investment summaries
